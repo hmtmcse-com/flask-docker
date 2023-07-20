@@ -9,4 +9,4 @@ def bismillah():
 
 port_number = 1212
 if __name__ == '__main__':
-    app.run(port=port_number)
+    app.run(port=port_number, host="0.0.0.0")
