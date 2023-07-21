@@ -8,4 +8,4 @@ EXPOSE 1212
 # CMD python ./flask_app.py
 
 # Gunicorn Use for Run the project as production mode
-CMD [ "gunicorn" "--bind" "0.0.0.0:1212" "wsgi:app"]
+CMD [ "gunicorn", "--bind", "0.0.0.0:1212", "wsgi:app"]
